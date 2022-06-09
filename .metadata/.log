@@ -1,0 +1,1696 @@
+!SESSION 2022-06-09 12:08:52.189 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-06-09 12:09:16.375
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-09 12:09:16.375
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f1fb139,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7057dbda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY Activator 1 0 2022-06-09 12:10:12.106
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:15.975
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:17.517
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:17.992
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:25.767
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:25.878
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:36.267
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:36.267
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:37.898
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:37.898
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:37.898
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:37.899
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:38.242
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.104
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.135
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.135
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.135
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.135
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.135
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:10:58.135
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY org.eclipse.ui 2 2 2022-06-09 12:27:50.550
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2022-06-09 12:27:55.577
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-09 12:27:55.577
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ad404c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41285940,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:27.081
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:27.081
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@293b413e[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=553)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:27.156
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:27.312
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:30.861
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:150)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5121)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4599)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.393
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.555
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.606
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.705
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.756
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.883
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:31.933
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:32.035
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:32.086
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getContextInformationAutoActivationCharacters(LSContentAssistProcessor.java:312)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isContextInformationAutoActivation(IContentAssistProcessorExtension.java:128)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1208)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3987)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:32.282
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:273)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1205)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:319)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:348)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:481)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1225)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6101)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5795)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5879)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendIMKeyEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Control.gtk_commit(Control.java:3627)
+	at org.eclipse.swt.widgets.Canvas.gtk_commit(Canvas.java:168)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2301)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_im_context_filter_keypress(Native Method)
+	at org.eclipse.swt.widgets.Control.filterKey(Control.java:2823)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3980)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:896)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2315)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6764)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1567)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4596)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1435)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.311
+!MESSAGE Boot LS startup time from start to initialized: 5141ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-06-09 12:28:32.523
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2069)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.lambda$12(LSPTextHover.java:199)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.lambda$11(LSPTextHover.java:208)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.627
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kbbPLDHuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.630
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.632
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.633
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.633
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.633
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kbbPLDHu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.638
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.638
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu dscatalog false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.638
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.640
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.640
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu uri2602 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.640
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.641
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.642
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu uri2609 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.642
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.643
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.644
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu uri2611 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.644
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.646
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.646
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu uri2621 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.647
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.648
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.649
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu uri2737 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.650
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.651
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.652
+!MESSAGE buffering callback sts4.classpath.kbbPLDHu uri2990 false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:32.652
+!MESSAGE executing callback sts4.classpath.kbbPLDHu 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-09 12:28:34.667
+!MESSAGE executing callback sts4.classpath.kbbPLDHu FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-06-09 12:28:34.667
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-06-09 12:28:39.290
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.length()" because "typeSignature" is null
+	at org.eclipse.jdt.internal.compiler.parser.TypeConverter.createTypeReference(TypeConverter.java:145)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.createTypeReference(BinaryTypeConverter.java:366)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:214)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:330)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.buildTypeDeclaration(BinaryTypeConverter.java:111)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectType(SelectionEngine.java:1612)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:328)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:270)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.resolveFQName(JavaData.java:520)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeDescriptorData(JavaData.java:294)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeData(JavaData.java:302)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createTypeData(JavaData.java:276)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:69)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:477)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-06-09 12:28:39.375
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "String.length()" because "typeSignature" is null
+	at org.eclipse.jdt.internal.compiler.parser.TypeConverter.createTypeReference(TypeConverter.java:145)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.createTypeReference(BinaryTypeConverter.java:366)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:214)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.convert(BinaryTypeConverter.java:330)
+	at org.eclipse.jdt.internal.core.BinaryTypeConverter.buildTypeDeclaration(BinaryTypeConverter.java:111)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectType(SelectionEngine.java:1612)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:328)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:270)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.resolveFQName(JavaData.java:520)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillAnnotationData(JavaData.java:370)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createAnnotationData(JavaData.java:362)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createMethodData(JavaData.java:250)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.fillTypeData(JavaData.java:314)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.createTypeData(JavaData.java:276)
+	at org.springframework.tooling.jdt.ls.commons.java.JavaData.typeData(JavaData.java:69)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$16(STS4LanguageClientImpl.java:477)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.452
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.453
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.453
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.454
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.454
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.470
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:39.474
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.468
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.468
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.468
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.468
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.468
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.469
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:41.469
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.009
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.009
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.009
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.009
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.010
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.010
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:28:43.012
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2022-06-09 12:29:46.242
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.ide.eclipse.boot.dash.views.BootDashActions$RunOrDebugStateAction$1.run(BootDashActions.java:393)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.022
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.022
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.023
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.023
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.023
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.023
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.024
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.209
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.209
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.210
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.210
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.215
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.215
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:29:55.233
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:30:02.788
+!MESSAGE Termination of 'dscatalog - DscatalogApplication' timed-out. Retrying
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.739
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.740
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.740
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.741
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.742
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.743
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:27.747
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.071
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.071
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.071
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.072
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.072
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.072
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.074
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.195
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.196
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.197
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.197
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.197
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.204
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.205
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.263
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.264
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.271
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.281
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.292
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.318
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.338
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.427
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.427
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.427
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.427
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.428
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.439
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.439
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.495
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.495
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.496
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.496
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.498
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.499
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.524
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.590
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.590
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.591
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.591
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.591
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.591
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.596
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.673
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.674
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.674
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.675
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.676
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.676
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.676
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.908
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.909
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.909
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.909
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.909
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.909
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.910
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.991
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.991
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.991
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.992
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.992
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.995
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:28.995
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.639
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.640
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.640
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.641
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.641
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.643
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.647
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.870
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.871
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.871
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.871
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.871
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.871
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:31.871
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.107
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.107
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.108
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.108
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.108
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.111
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.112
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.190
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.190
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.190
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.190
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.194
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.195
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.198
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.369
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.369
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.370
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.370
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.370
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.370
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.370
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.439
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.440
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.440
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.440
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.441
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.442
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.443
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.524
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.524
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.524
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.524
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.525
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.539
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.539
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.625
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.625
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.625
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.625
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.625
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.625
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.638
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.840
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.841
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.841
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.842
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.848
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.851
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:32.851
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.022
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.022
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.022
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.022
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.023
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.023
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.023
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.191
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.191
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.191
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.191
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.191
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.193
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.194
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.373
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.373
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.373
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.373
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.373
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.373
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.374
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.457
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.457
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.458
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.460
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.472
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.474
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.474
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.606
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.606
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.606
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.606
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.616
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.616
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:33.616
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.334
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.334
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.334
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.334
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.335
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.345
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:34.353
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.102
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.102
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.103
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.103
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.103
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.104
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:31:35.105
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.128
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.128
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.129
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.129
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.129
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.130
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.132
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.195
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.195
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.196
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.196
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.196
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.196
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.196
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.335
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.336
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.336
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.336
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.336
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.336
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.337
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.452
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.453
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.453
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.453
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.453
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.453
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.454
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.984
+!MESSAGE Has main method computation for project 'uri2990'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.984
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.984
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.985
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.985
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.986
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:15.986
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.342
+!MESSAGE Has main method computation for project 'uri2602'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.348
+!MESSAGE Has main method computation for project 'uri2609'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.348
+!MESSAGE Has main method computation for project 'uri2611'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.348
+!MESSAGE Has main method computation for project 'uri2621'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.348
+!MESSAGE Has main method computation for project 'uri2737'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.353
+!MESSAGE Has main method computation for project 'dscatalog'
+
+!ENTRY Activator 1 0 2022-06-09 12:32:16.353
+!MESSAGE Has main method computation for project 'uri2990'
